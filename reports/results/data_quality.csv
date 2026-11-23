@@ -1,0 +1,10 @@
+issue,development_rows,validation_rows,handling
+Negative weight (sign error),292,145,Absolute value: negatives mirror the positive distribution and their rates match normal loads
+Missing weight,300,165,Left missing; LightGBM learns which branch suits a missing value
+"Weight at the 47,500 lb cap",1204,301,"Kept: a ceiling in the source data (values clipped to 5,000-47,500), not an error"
+Missing market_index,374,249,Same-day mean of the other loads (the date explains ~98% of its variance)
+Corrupted posted_rate (2.2-5.5x or 0.18-0.45x expected),677,n/a,Removed from training (screened with an out-of-fold L1 model)
+quote_signal unreliable (flips sign by month; noise in Nov-Dec),all rows,all rows,Feature excluded
+Cities never seen in development data,0,1447,"Location enters the model as coordinates, not city IDs"
+Lanes never seen in development data,0,1461,Same as above; no lane-ID features
+Duplicate load_id / duplicate rows,0,0,None found; checked on load

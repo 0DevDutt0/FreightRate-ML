@@ -1,0 +1,13 @@
+month,set,corr
+1,development (vs actual),0.995801753351839
+2,development (vs actual),0.9956819085058177
+3,development (vs actual),0.9963356442768456
+4,development (vs actual),-0.9768075936369488
+5,development (vs actual),-0.9747709481357038
+6,development (vs actual),0.9966733615953907
+7,development (vs actual),-0.9743433161832252
+8,development (vs actual),-0.018931376445071393
+9,development (vs actual),0.9965236437968962
+10,development (vs actual),-0.9719126167021888
+11,validation (vs model expectation),-0.0003018175134843738
+12,validation (vs model expectation),-0.013543039271363447

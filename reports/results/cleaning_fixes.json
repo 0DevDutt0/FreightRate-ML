@@ -1,0 +1,16 @@
+{
+  "development": {
+    "unknown_equipment_set_missing": 0,
+    "negative_weight_sign_flipped": 292,
+    "weight_missing_left_for_model": 300,
+    "distance_rebuilt_from_coordinates": 0,
+    "market_index_missing_imputed_same_day": 374
+  },
+  "validation": {
+    "unknown_equipment_set_missing": 0,
+    "negative_weight_sign_flipped": 145,
+    "weight_missing_left_for_model": 165,
+    "distance_rebuilt_from_coordinates": 0,
+    "market_index_missing_imputed_same_day": 249
+  }
+}

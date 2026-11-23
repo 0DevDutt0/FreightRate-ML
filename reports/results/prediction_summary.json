@@ -1,0 +1,24 @@
+{
+  "training_rows": 47323,
+  "label_outliers_removed": 677,
+  "validation_predictions": {
+    "count": 12000.0,
+    "mean": 2363.29,
+    "std": 1360.88,
+    "min": 188.53,
+    "25%": 1274.79,
+    "50%": 2042.74,
+    "75%": 3360.26,
+    "max": 6786.49
+  },
+  "december_predictions": {
+    "count": 31.0,
+    "mean": 828.67,
+    "std": 7.5,
+    "min": 815.82,
+    "25%": 821.64,
+    "50%": 830.18,
+    "75%": 835.02,
+    "max": 840.56
+  }
+}

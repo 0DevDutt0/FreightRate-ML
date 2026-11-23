@@ -1,0 +1,44 @@
+# Raw assessment data is not redistributed: copy the provided files into data/ (see README).
+data/train_test.csv
+data/validation.csv
+data/validation_predictions_template.csv
+
+# The original downloads, under their as-downloaded names
+train-test.csv
+/validation.csv
+validation-predictions-template.csv
+december-chart-inputs.csv
+
+# Personal notes and assessment material that should stay private
+LOOM*.md
+*talking_points*.md
+notes/
+freight-rate-ml-assessment*.md
+Freight_Rate_ML_Assessment.pdf
+
+# Virtual environments
+.venv/
+venv/
+env/
+Job/
+
+# Secrets and local tool settings
+.env
+.env.*
+.claude/
+*.local.json
+
+# Generated locally
+artifacts/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.playwright-mcp/
+~$*.docx
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

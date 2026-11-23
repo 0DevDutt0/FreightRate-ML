@@ -1,0 +1,10 @@
+[project]
+name = "freight-rate"
+version = "1.0.0"
+description = "Freight rate prediction challenge: cleaning, time-aware validation and a LightGBM rate model"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "tests"]
+addopts = "-q"

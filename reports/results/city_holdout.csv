@@ -1,0 +1,13 @@
+draw,held_out,design,group,n,MAPE,MAE,RMSE,bias_pct
+0,"Bakersfield, Hartford, Memphis, New York, San Antonio, Toledo, Tulsa, Washington",coordinates (final),unseen cities,12403,1.9695702047942985,48.38904641760495,70.66605996304335,-0.09686116067106146
+0,"Bakersfield, Hartford, Memphis, New York, San Antonio, Toledo, Tulsa, Washington",coordinates (final),seen cities,5254,1.8593222469271653,43.42497506504189,64.45388863146263,0.08675871363136682
+0,"Bakersfield, Hartford, Memphis, New York, San Antonio, Toledo, Tulsa, Washington",coordinates + city IDs,unseen cities,12403,2.4720735147526476,57.98851798772081,80.39951997793091,-0.12227205981220293
+0,"Bakersfield, Hartford, Memphis, New York, San Antonio, Toledo, Tulsa, Washington",coordinates + city IDs,seen cities,5254,1.8350643332785392,42.75467882035182,63.3198639087184,0.06267718014370575
+1,"Birmingham, Cincinnati, Corpus Christi, Grand Rapids, New York, Richmond, Shreveport, Toledo",coordinates (final),unseen cities,12208,2.0092640280543876,42.547185040009595,62.43129102046657,0.08834052107229903
+1,"Birmingham, Cincinnati, Corpus Christi, Grand Rapids, New York, Richmond, Shreveport, Toledo",coordinates (final),seen cities,5249,1.8538033519189245,45.689307104193624,66.84827889837337,0.013479968906643611
+1,"Birmingham, Cincinnati, Corpus Christi, Grand Rapids, New York, Richmond, Shreveport, Toledo",coordinates + city IDs,unseen cities,12208,2.596019829911913,53.12389869752372,74.88099879663952,-0.7439301871745926
+1,"Birmingham, Cincinnati, Corpus Christi, Grand Rapids, New York, Richmond, Shreveport, Toledo",coordinates + city IDs,seen cities,5249,1.8500196714318364,45.397220361526564,66.60715399649962,0.013576478673241348
+2,"Austin, Dayton, Fresno, Green Bay, Los Angeles, Philadelphia, Phoenix, Providence",coordinates (final),unseen cities,11000,2.0000435169564197,60.19810029001413,85.46795341928271,0.1638368197300988
+2,"Austin, Dayton, Fresno, Green Bay, Los Angeles, Philadelphia, Phoenix, Providence",coordinates (final),seen cities,5435,1.849964677118945,40.28381507157074,58.38405796506101,-0.004299696403195439
+2,"Austin, Dayton, Fresno, Green Bay, Los Angeles, Philadelphia, Phoenix, Providence",coordinates + city IDs,unseen cities,11000,3.2923797365023737,98.87786460909628,134.82886727146686,2.812136491738169
+2,"Austin, Dayton, Fresno, Green Bay, Los Angeles, Philadelphia, Phoenix, Providence",coordinates + city IDs,seen cities,5435,1.847601686932987,40.102869312881985,58.61848946785437,0.013127899874774637
