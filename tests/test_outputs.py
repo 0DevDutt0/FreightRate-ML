@@ -19,6 +19,8 @@ def load_scorer():
 
 
 needs_predictions = pytest.mark.skipif(not PREDICTIONS_PATH.exists(), reason="run `python -m freight_rate predict` first")
+needs_template = pytest.mark.skipif(not TEMPLATE_PATH.exists(),
+                                    reason="the template is not committed; copy the provided data files into data/")
 
 
 @needs_predictions
@@ -27,6 +29,7 @@ def test_validation_predictions_pass_the_official_checks():
 
 
 @needs_predictions
+@needs_template
 def test_validation_predictions_keep_template_order():
     predictions = pd.read_csv(PREDICTIONS_PATH)
     template = pd.read_csv(TEMPLATE_PATH)
