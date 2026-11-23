@@ -1,4 +1,4 @@
-# Tested with Python 3.12.10. Versions satisfy the scorer's own bounds
+# Needs Python 3.12+ (numpy 2.5.5); tested with 3.12.10. Versions satisfy the scorer's own bounds
 # (matplotlib>=3.8,<4  numpy>=1.26,<3  pandas>=2.0,<3).
 numpy==2.5.5
 pandas==2.3.3

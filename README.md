@@ -1,5 +1,7 @@
 # Freight Rate Prediction
 
+[![tests](https://github.com/0DevDutt0/FreightRate-ML/actions/workflows/tests.yml/badge.svg)](https://github.com/0DevDutt0/FreightRate-ML/actions/workflows/tests.yml)
+
 Predicts the posted rate for a truckload from its lane, equipment, weight and date. The model is trained on
 48,000 labelled loads from Jan-Oct 2025 and predicts 12,000 loads from Nov-Dec 2025.
 
@@ -42,7 +44,7 @@ Scores are on test rows that passed label screening. Every number is regenerated
 
 ## Setup
 
-Python 3.12 (3.10+ should work).
+Python 3.12 or newer. The pinned numpy 2.5.5 requires 3.12, so older versions fail at install.
 
 ```bash
 python -m venv .venv
@@ -91,6 +93,9 @@ own validators):
 ```bash
 python -m pytest
 ```
+
+GitHub Actions runs the tests on every push (badge at the top). The raw data is not in the repo, so CI runs 21 of
+them and skips the one that compares against the prediction template.
 
 ## Code map
 
